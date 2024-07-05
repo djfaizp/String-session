@@ -9,7 +9,7 @@ db = pickledb.load("user_db.db", True)  # The second argument "True" creates the
 def filter(cmd: str):
     return filters.private & filters.incoming & filters.command(cmd)
 
-GAGAN = 5128979564
+GAGAN = 590834817
 
 @Client.on_message(filter("rajkr"))
 async def start(bot: Client, msg: Message):
@@ -28,15 +28,15 @@ This handy tool allows you to effortlessly generate sessions for both Pyrogram a
 Whether you're developing Telegram bots or automation scripts, our bot has got you covered. 
 Dive in and start generating sessions with ease!
 
-Made with ❤️ by [Team SPY](https://t.me/dev_gagan)""",
+Made with ❤️ by [Team SPY](https://t.me/Seasson_String_Generator_bot)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖤 𝖲𝖳𝖱𝖨𝖭𝖦", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton(" Group", url="https://t.me/dev_gagan"),
-                    InlineKeyboardButton("Channel", url="https://t.me/dev_gagan")
+                    InlineKeyboardButton(" Group", url="https://t.me/Seasson_String_Generator_bot"),
+                    InlineKeyboardButton("Channel", url="https://t.me/Seasson_String_Generator_bot")
                 ]
             ]
         )
